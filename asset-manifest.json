@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/minecraft-server-configurator/static/css/main.1c77d178.css",
+    "main.js": "/minecraft-server-configurator/static/js/main.43d7d136.js",
+    "static/js/488.98be86b3.chunk.js": "/minecraft-server-configurator/static/js/488.98be86b3.chunk.js",
+    "static/media/sand.jpg": "/minecraft-server-configurator/static/media/sand.c333032579b3a4c48e15.jpg",
+    "static/media/grass.jpg": "/minecraft-server-configurator/static/media/grass.eb5fc8ebf9c7a590fb39.jpg",
+    "static/media/stone.jpg": "/minecraft-server-configurator/static/media/stone.c1fc41b5b918a7ad1b1a.jpg",
+    "static/media/MinecraftBold-nMK1.otf": "/minecraft-server-configurator/static/media/MinecraftBold-nMK1.a9b3bc2a90dd462c9c18.otf",
+    "static/media/MinecraftRegular-Bmg3.otf": "/minecraft-server-configurator/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
+    "index.html": "/minecraft-server-configurator/index.html",
+    "main.1c77d178.css.map": "/minecraft-server-configurator/static/css/main.1c77d178.css.map",
+    "main.43d7d136.js.map": "/minecraft-server-configurator/static/js/main.43d7d136.js.map",
+    "488.98be86b3.chunk.js.map": "/minecraft-server-configurator/static/js/488.98be86b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c77d178.css",
+    "static/js/main.43d7d136.js"
+  ]
+}
