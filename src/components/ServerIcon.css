@@ -1,0 +1,17 @@
+#ServerIcon{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgb(235, 204, 165);
+    border-radius: 15px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.26);
+    background-image: url("../../public/stone.jpg");
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: lighten;
+    background-size: 128px;
+    
+}
+#serverIconFileNameBanner{
+    text-align: center;
+    font-family: 'minecraft-font-bold';
+}

@@ -1,0 +1,18 @@
+.fileInputLabels{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.4);
+    
+}
+.importButtonLabel{
+    color:white;
+    background-color: green;
+
+}
+.exportButtonLabel{
+    color:white;
+    background-color: red;
+
+}

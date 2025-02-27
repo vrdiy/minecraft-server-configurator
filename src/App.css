@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "minecraft-font";
+  src: url("../public/minecraft-font/MinecraftRegular-Bmg3.otf");
+}
+@font-face {
+  font-family: "minecraft-font-bold";
+  src: url("../public/minecraft-font/MinecraftBold-nMK1.otf");
+}
+body{
+  background-image: url("../public/grass.jpg");
+
+  background-color: rgba(255, 255, 255, 0.03);
+  background-blend-mode: lighten;
+
+}
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: "minecraft-font";
+  
+
+}
+.banner{
+  text-align: center;
+  font-family: "minecraft-font-bold";
+  color: rgb(248, 255, 184);
+  
+}
+
+#previewImage{
+  border: solid 1px black;
+  width: 256px;
+  height: 256px;
+  object-fit: cover;
+}
+#serverIconSection{
+  float:left;
+  margin-right: 10px;
+}
+#serverPropertiesSection{
+  float:right;
+  
+}
+.fileInputLabels{
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.4);
+}
+#exportFilesLabel{
+  color:white;
+  background-color: red;
+  float:right;
+}
+#importFilesLabel{
+  color:white;
+  background-color: green;
+}
+.fileInputLabels:hover{
+  background-blend-mode:multiply!important;
+  color: rgb(0, 0, 0) !important;
+  
+}

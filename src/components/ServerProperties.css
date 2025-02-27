@@ -1,0 +1,64 @@
+#ServerProperties{
+    background-color: rgb(230, 248, 196);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.26);
+  background-image: url("../../public/sand.jpg");
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  background-size: 128px;
+}
+#serverPropertiesFileNameBanner{
+    text-align: center;
+    font-family: 'minecraft-font-bold';
+    width:auto;
+}
+#PropertyList {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: left;
+    padding-left: 0px;
+    width: 100%;
+}
+.sProperty {
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.26);
+    background-color: rgba(255, 255, 255, 0.212);
+    background-blend-mode: lighten;
+}
+.sPropertyField {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+.sProperty p{
+    margin: auto;
+    float:left;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: "minecraft-font";
+}
+.non-default{
+    background-color: rgb(251, 255, 0);
+}
+.refresh-img{
+    width: 16px;
+    height: 16px;
+    background-image: url('../../public/refresh.png');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    border-radius: 16px;
+}
+.refresh-img:hover{
+    filter: invert(15%) sepia(87%) saturate(7154%) hue-rotate(6deg) brightness(117%) contrast(126%);
+}
