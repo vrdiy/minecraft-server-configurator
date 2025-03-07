@@ -3,13 +3,13 @@
 import './App.css';
 import { useState } from 'react';
 import ServerProperties from './components/ServerProperties';
-
 import ServerIcon from './components/ServerIcon';
+import placeholder from './imgs/placeholder_icon.png';
 
 function App() {
   
   // Import files from chosen directory
-  const [serverIcon, setServerIcon] = useState('placeholder_icon.png');
+  const [serverIcon, setServerIcon] = useState(placeholder);
 
   return (
     <div className="App">

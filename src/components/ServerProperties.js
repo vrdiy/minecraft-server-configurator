@@ -9,7 +9,6 @@ function importServerProperties(){
     for (let i = 0; i < importedFiles.length; i++){
       
       const fileName = importedFiles[i].name;
-  
       if (fileName === "server.properties"){
         const reader = new FileReader();
         reader.onload = () =>{
@@ -19,7 +18,6 @@ function importServerProperties(){
           function importValue(val){
             const propertyName = val.split('=')[0];
             var propertyValue = val.split('=')[1];
-  
             var element = document.getElementById(propertyName);
             if (element === null){
               //console.log(`null property: ${propertyName}`);
@@ -45,6 +43,9 @@ function importServerProperties(){
           document.getElementById("importForm").reset();
         }
         reader.readAsText(importedFiles[i]);
+      }
+      else{
+        console.log(`Expected filename 'server.properties', got ${fileName}`)
       }
     }
 }
