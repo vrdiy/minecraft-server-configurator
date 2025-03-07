@@ -62,10 +62,10 @@ export function exportServerProperties(){
       propertiesDict[elem.id] = elemValue;
     }
     var propertiesToExport = '';
-    propertiesToExport = propertiesToExport.concat("# Config Exported from Minecraft Server Configurator\n");
-    propertiesToExport = propertiesToExport.concat(`# ${new Date().toLocaleString()}\n`);
+    propertiesToExport = propertiesToExport.concat("# Config Exported from Minecraft Server Configurator\r\n");
+    propertiesToExport = propertiesToExport.concat(`# ${new Date().toLocaleString()}\r\n`);
     for (const [key, value] of Object.entries(propertiesDict)){
-      propertiesToExport = propertiesToExport.concat(`${key.toString()}=${value.toString()}\n`);
+      propertiesToExport = propertiesToExport.concat(`${key.toString()}=${value.toString()}\r\n`);
     }
     console.log(propertiesToExport);
     const downloadURL = window.URL.createObjectURL(new Blob([propertiesToExport], {type: 'text/plain'}));
