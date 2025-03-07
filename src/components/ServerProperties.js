@@ -15,8 +15,8 @@ function importServerProperties(){
         reader.onload = () =>{
           // Load values from server.properties into fields
           const lines = reader.result.split('\r\n');
-          lines.forEach(doThing);
-          function doThing(val){
+          lines.forEach(importValue);
+          function importValue(val){
             const propertyName = val.split('=')[0];
             var propertyValue = val.split('=')[1];
   
@@ -74,8 +74,6 @@ export function exportServerProperties(){
     download.download = 'server.properties';
     download.click();
 
-    // Export server-icon
-    
   }
 export function DefaultServerProperties(){
     const defaultServerProps = {};
